@@ -514,32 +514,56 @@ Format :
 > DoD applicable aux 5 US détaillées en section 4.1 (US 1, 2, 5, 10, 14).
 
 #### DoD — commune (toutes les US)
-- La User Story est **compréhensible** et **ne contient pas d’ambiguïté bloquante**.
-- Les critères d’acceptation (Given/When/Then) sont **écrits** et **validés**.
-- La fonctionnalité est **utilisable via l’interface** (si applicable) et ne bloque pas la progression.
-- Les messages d’erreur / retours visuels en cas de refus (si applicable) sont **présents** et **compréhensibles**.
-- La fonctionnalité est **testée** (au minimum : scénario nominal + scénario d’échec) et les résultats sont conformes.
-- La documentation de livrable (`docs/livrable.md`) est **mise à jour**.
+- Les critères d’acceptation (Given/When/Then) de l’US sont **présents** dans `docs/livrable.md`.
+- L’US a fait l’objet d’une **validation explicite du PO** (statut « OK » / commentaire « validé » sur la PR associée).
+- Le scénario **nominal** et un scénario **d’échec/refus** (si applicable) ont été exécutés et sont **listés** (référence ou description courte) dans `docs/livrable.md`.
+- La fonctionnalité est **observable** côté joueur :
+  - soit via un élément d’UI identifié (écran/panneau/menu),
+  - soit via un changement d’état de jeu visible (statut, compteur, indicateur).
+- En cas de refus/erreur (si applicable) :
+  - aucun effet de bord (ressources/états) n’est appliqué,
+  - un message/retour est affiché dans l’UI (écran concerné ou journal d’événements).
 
 #### DoD — spécifique US 1 (lancement de partie)
 - Une nouvelle partie démarre **toujours** à l’âge de pierre.
 - L’écran d’informations de civilisation affiche **correctement** l’ère de départ.
 
 #### DoD — spécifique US 2 (collecte de ressources)
-- Les 4 ressources (bois, pierre, nourriture, or) sont **collectables**.
-- Les tableaux de gestion affichent une **augmentation cohérente** des valeurs.
+- Les 4 ressources (bois, pierre, nourriture, or) sont **collectables** via une action explicite du joueur (ordre d’unité / interaction sur une source valide).
+- Pour une action de collecte **réussie** sur une ressource donnée :
+  - la ressource ciblée augmente d’au moins **+1** unité (selon les paramètres de production),
+  - les 3 autres ressources ne varient pas à cette étape,
+  - la nouvelle valeur est visible dans le **tableau de gestion des ressources**.
 
 #### DoD — spécifique US 5 (construction libre)
-- Le placement sur zone autorisée fonctionne et crée le bâtiment.
-- Le placement sur zone non autorisée est **refusé** avec un retour explicite.
+- **Zone autorisée** : terrain constructible, sans obstacle, et sans élément occupant (bâtiment/unité/ressource).
+- Si le joueur a les ressources suffisantes et construit sur une zone autorisée :
+  - le bâtiment est créé à l’emplacement choisi,
+  - le coût en ressources est déduit,
+  - le bâtiment est sélectionnable/visible dans l’interface.
+- **Zone non autorisée** : toute zone ne respectant pas la définition « zone autorisée ».
+- En cas de tentative sur zone non autorisée :
+  - aucun bâtiment n’est créé,
+  - aucune ressource n’est modifiée,
+  - un message de refus est affiché dans l’UI.
 
 #### DoD — spécifique US 10 (progression d’ère)
-- Si tous les prérequis sont satisfaits, l’ère change et les contenus attendus sont déverrouillés.
-- Si un prérequis manque, le passage d’ère est refusé et les prérequis manquants sont indiqués.
+- Si tous les prérequis sont satisfaits :
+  - l’indicateur d’ère dans l’UI affiche la **nouvelle ère**,
+  - les catégories « nouvelle ère » sont visibles dans au moins un écran de progression (construction / recrutement / recherche).
+- Si un prérequis manque :
+  - le passage d’ère est refusé,
+  - la liste des prérequis manquants est affichée dans l’UI avec l’état actuel.
 
 #### DoD — spécifique US 14 (diplomatie)
-- Un accord accepté est enregistré et ses effets sont appliqués.
-- Un accord refusé n’applique aucun effet et le refus est visible par le joueur.
+- Un accord accepté :
+  - met à jour le **statut diplomatique** (ex. alliance / paix / non-agression),
+  - est visible sur l’**écran de diplomatie** (et persiste via sauvegarde si la partie supporte la sauvegarde),
+  - applique des effets observables (ex. accès au commerce / impossibilité d’attaquer selon le pacte).
+- Un accord refusé :
+  - ne modifie pas l’état diplomatique,
+  - n’applique aucun bonus/malus,
+  - affiche explicitement le refus sur l’écran de diplomatie et/ou dans le journal d’événements.
 
 ---
 

@@ -511,7 +511,35 @@ Format :
    - **Then** l’accord est refusé et aucun effet diplomatique n’est appliqué
 
 ### 4.2 Definition of Done (DoD)
-- _À compléter dans l'issue #9_
+> DoD applicable aux 5 US détaillées en section 4.1 (US 1, 2, 5, 10, 14).
+
+#### DoD — commune (toutes les US)
+- La User Story est **compréhensible** et **ne contient pas d’ambiguïté bloquante**.
+- Les critères d’acceptation (Given/When/Then) sont **écrits** et **validés**.
+- La fonctionnalité est **utilisable via l’interface** (si applicable) et ne bloque pas la progression.
+- Les messages d’erreur / retours visuels en cas de refus (si applicable) sont **présents** et **compréhensibles**.
+- La fonctionnalité est **testée** (au minimum : scénario nominal + scénario d’échec) et les résultats sont conformes.
+- La documentation de livrable (`docs/livrable.md`) est **mise à jour**.
+
+#### DoD — spécifique US 1 (lancement de partie)
+- Une nouvelle partie démarre **toujours** à l’âge de pierre.
+- L’écran d’informations de civilisation affiche **correctement** l’ère de départ.
+
+#### DoD — spécifique US 2 (collecte de ressources)
+- Les 4 ressources (bois, pierre, nourriture, or) sont **collectables**.
+- Les tableaux de gestion affichent une **augmentation cohérente** des valeurs.
+
+#### DoD — spécifique US 5 (construction libre)
+- Le placement sur zone autorisée fonctionne et crée le bâtiment.
+- Le placement sur zone non autorisée est **refusé** avec un retour explicite.
+
+#### DoD — spécifique US 10 (progression d’ère)
+- Si tous les prérequis sont satisfaits, l’ère change et les contenus attendus sont déverrouillés.
+- Si un prérequis manque, le passage d’ère est refusé et les prérequis manquants sont indiqués.
+
+#### DoD — spécifique US 14 (diplomatie)
+- Un accord accepté est enregistré et ses effets sont appliqués.
+- Un accord refusé n’applique aucun effet et le refus est visible par le joueur.
 
 ---
 

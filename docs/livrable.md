@@ -604,7 +604,21 @@ Format conseillé : **Priorité - User Story - Dépend de - Justification**
 > Sélectionner 6 à 8 US maximum pour une V1 jouable.
 
 ### 6.1 US retenues pour le MVP
-- _À compléter dans l'issue #11_
+Objectif : une **V1 jouable** centrée sur la boucle STR de base (démarrage → économie → construction → progression → première capacité militaire).
+
+US retenues (6 à 8 maximum) :
+1. **US 1** — Lancer une partie à l’âge de pierre
+2. **US 2** — Collecter du bois, de la pierre, de la nourriture et de l’or
+3. **US 4** — Consulter l’état de mes ressources
+4. **US 5** — Construire librement mes bâtiments
+5. **US 9** — Remplir des prérequis de progression
+6. **US 10** — Faire évoluer ma civilisation d’un âge à l’autre
+7. **US 11** — Recruter des unités militaires adaptées à mon époque
+
+Justification MVP (synthèse) :
+- Ces US constituent le **socle du gameplay STR** : démarrer, produire/consommer des ressources, construire, progresser, recruter.
+- Elles respectent les **dépendances** du backlog priorisé (section 5.1) et permettent une progression “end-to-end” sans systèmes avancés.
+- Les mécaniques plus complexes (tactique avancée, diplomatie, artefacts, multijoueur, campagne, identité civilisationnelle) seront traitées après stabilisation du cœur de boucle.
 
 ### 6.2 Description de la V1 jouable
 - _À compléter dans l'issue #12_

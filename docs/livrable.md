@@ -573,7 +573,30 @@ Format :
 Format conseillé : **Priorité - User Story - Dépend de - Justification**
 
 ### 5.1 Backlog complet priorisé
-- _À compléter dans l'issue #10_
+| Priorité | User Story | Dépend de | Justification (valeur / gameplay / dépendances) |
+|---:|---|---|---|
+| 1 | **US 1** — Lancer une partie à l’âge de pierre | — | Point d’entrée indispensable : sans création de partie, aucun autre système n’est accessible. |
+| 2 | **US 2** — Collecter du bois, de la pierre, de la nourriture et de l’or | US 1 | Cœur de la boucle RTS : l’économie alimente la construction, le recrutement, la progression. |
+| 3 | **US 5** — Construire librement mes bâtiments | US 1, US 2 | Construction = second pilier de la boucle (économie → développement). Conditionne ensuite urbanisme, défense, production. |
+| 4 | **US 4** — Consulter l’état de mes ressources | US 2 | Améliore la prise de décision et réduit la friction UX : le joueur doit pouvoir piloter l’économie. |
+| 5 | **US 3** — Produire de la connaissance | US 1 | La connaissance est explicitement une ressource clé (PO). Prépare la progression (ères/recherches). |
+| 6 | **US 9** — Remplir des prérequis de progression | US 2, US 3, US 5 | Formalise les “gates” (ressources/savoir/bâtiments) et rend la progression compréhensible et planifiable. |
+| 7 | **US 10** — Faire évoluer ma civilisation d’un âge à l’autre | US 9 | La progression d’ère débloque le contenu (bâtiments/unités) : moteur de motivation et de variété. |
+| 8 | **US 6** — Tirer des bonus du terrain lors de la construction | US 5 | Ajoute de la profondeur stratégique à la construction (différenciation des choix de placement). |
+| 9 | **US 7** — Construire des fermes près des fleuves | US 5, US 6 | Cas d’usage concret du système environnemental ; valeur immédiate (boucle nourriture). |
+| 10 | **US 8** — Construire des forteresses en hauteur | US 5, US 6 | Autre cas d’usage environnemental ; introduit la logique défensive et prépare le militaire. |
+| 11 | **US 11** — Recruter des unités militaires adaptées à mon époque | US 2, US 5 | Permet conflit/défense/expansion : essentiel au genre STR et à l’équilibre avec économie. |
+| 12 | **US 13** — Recruter des généraux | US 11 | Système de commandement : augmente la profondeur du militaire, mais reste secondaire à “avoir une armée”. |
+| 13 | **US 12** — Utiliser le terrain, la météo et les formations | US 11 | Approfondissement tactique : nécessite déjà des unités ; apporte de la maîtrise et des choix de combat. |
+| 14 | **US 14** — Négocier un accord diplomatique (alliance, paix ou non-agression) | US 1 | Voie alternative à la guerre, explicitement centrale dans la vision PO ; arrive après la boucle de base. |
+| 15 | **US 15** — Négocier des échanges commerciaux | US 14, US 2 | Le commerce est une extension de la diplomatie et de l’économie ; dépend des relations et de ressources. |
+| 16 | **US 16** — Configurer les piliers culturels (panthéon, traditions, lois) | US 1 | Personnalisation de civilisation (style de jeu). Forte valeur, mais moins bloquante que la boucle RTS principale. |
+| 17 | **US 17** — Découvrir et obtenir des artefacts | US 1 | Contenu de progression/bonus “mid-game” : enrichit la stratégie (bonus uniques/persistants). |
+| 18 | **US 19** — Jouer en mode Sandbox | US 1 | Mode alternatif : valeur importante, mais il repose sur la stabilité des systèmes de base. |
+| 19 | **US 18** — Jouer une campagne historique | US 1 | Mode scénarisé : production coûteuse et dépend d’une base gameplay solide ; priorisé après sandbox. |
+| 20 | **US 20** — Rejoindre une partie multijoueur compétitive ou coopérative | US 1 | Forte valeur, mais complexité/risque élevés (réseau, équilibrage). Logiquement après stabilisation du cœur de jeu. |
+
+> Note : cette priorisation est raisonnée “Product Owner” (valeur + dépendances). Le **MVP** sera dérivé de cette liste dans les issues #11/#12.
 
 ---
 

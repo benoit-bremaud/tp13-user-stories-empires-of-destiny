@@ -13,7 +13,87 @@
 > Aucune structuration attendue à cette étape.
 
 ### 1.1 Fonctionnalités extraites
-- _À compléter dans l'issue #2_
+- Évolution d’une civilisation sur 4 grandes ères jouables au lancement
+- Démarrage à l’âge de pierre avec moyens rudimentaires
+- Transition vers l’âge du bronze (métallurgie, premières armées structurées)
+- Transition vers l’âge du fer (sociétés organisées, défenses avancées, armements améliorés)
+- Transition vers l’ère médiévale (chevalerie, fortifications massives, diplomatie complexe, religion institutionnalisée)
+- Passage d’ère non instantané (pas de bouton direct)
+- Déblocage des ères via conditions à satisfaire
+- Système de ressources matérielles : bois
+- Système de ressources matérielles : pierre
+- Système de ressources matérielles : nourriture
+- Système de ressources matérielles : or
+- Système de ressource abstraite : connaissance
+- Accumulation de richesse multidimensionnelle pour progresser
+- Prérequis structurels pour certaines progressions d’ère
+- Prérequis de bâtiments spécifiques pour progression
+- Prérequis de recherches technologiques pour progression
+- Prérequis d’accumulation de savoirs pour progression
+- Introduction d’artefacts culturels
+- Typologies d’artefacts : reliques, manuscrits, objets sacrés, œuvres anciennes
+- Obtention d’artefacts via exploration
+- Obtention d’artefacts via commerce
+- Obtention d’artefacts via pillage en conflit
+- Artefacts conférant des bonus uniques
+- Bonus d’artefacts potentiellement permanents
+- Bonus influençant culture civilisationnelle
+- Bonus influençant puissance symbolique
+- Système de construction libre (placement libre des bâtiments)
+- Impact de l’environnement sur rendement des bâtiments
+- Ferme proche d’un fleuve : bonus de productivité
+- Forteresse en hauteur : bonus défensif
+- Carrière proche d’une falaise : meilleure rentabilité
+- Dimension urbanistique stratégique de l’empire
+- Diversité d’unités militaires selon les époques
+- Unités primitives (milices)
+- Unités de type lanciers
+- Unités de type archers
+- Unités de cavalerie
+- Unités médiévales (chevaliers lourdement armurés)
+- Résolution des combats influencée par le terrain
+- Résolution des combats influencée par la météo
+- Résolution des combats influencée par les formations
+- Recrutement de généraux
+- Généraux avec compétences propres
+- Généraux avec traits psychologiques impactant les armées
+- Diplomatie structurante (alternative à la guerre)
+- Alliances militaires
+- Traités de paix
+- Échanges commerciaux négociés
+- Pactes de non-agression
+- Négociations longues et complexes
+- Négociations avec contreparties économiques
+- Négociations avec contreparties territoriales
+- Personnalisation religieuse de la civilisation (panthéon)
+- Choix de divinités tutélaires
+- Définition de traditions culturelles
+- Promulgation de lois impériales
+- Choix de civilisation impactant profondément le gameplay
+- Orientation militariste possible
+- Orientation marchande possible
+- Orientation théocratique possible
+- Campagnes historiques scénarisées
+- Objectifs narratifs spécifiques en campagne
+- Mode Sandbox (liberté sans contrainte narrative)
+- Multijoueur compétitif
+- Multijoueur coopératif
+- Coopération contre menaces systémiques
+- Menaces systémiques : invasions barbares
+- Menaces systémiques : catastrophes naturelles
+- Menaces systémiques : crises économiques
+- Interface riche mais lisible
+- Carte stratégique détaillée
+- Tableaux de gestion des ressources
+- Suivi démographique
+- Outils de planification militaire
+- Outils de planification diplomatique
+- Pilotage global de l’empire avec faible friction UX
+- Constructions exceptionnelles (merveilles du monde)
+- Effets durables des merveilles
+- Persistance inter-parties de certaines décisions
+- Héritage civilisationnel entre parties
+- Génération d’histoires émergentes selon choix du joueur
 
 ### 1.2 Actions joueur / mécaniques / interactions
 - _À compléter dans l'issue #3_

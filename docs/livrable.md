@@ -177,7 +177,55 @@
 > Produire entre 6 et 10 EPICS et rattacher les fonctionnalités.
 
 ### 2.1 Liste des EPICS
-- _À compléter dans l'issue #4_
+- **EPIC 1 — Progression civilisationnelle & âges historiques**
+  - Couvre l’évolution sur 4 ères (pierre, bronze, fer, médiéval)
+  - Couvre les transitions d’ère non instantanées
+  - Couvre les conditions de passage (ressources, savoir, prérequis)
+
+- **EPIC 2 — Économie, ressources & connaissances**
+  - Couvre la collecte/gestion des ressources matérielles (bois, pierre, nourriture, or)
+  - Couvre la production et l’accumulation de connaissance
+  - Couvre la logique de richesse multidimensionnelle pour la progression
+
+- **EPIC 3 — Construction, urbanisme & environnement**
+  - Couvre le placement libre des bâtiments
+  - Couvre les bonus/malus liés à l’environnement (fleuve, hauteur, falaise)
+  - Couvre l’optimisation urbanistique de l’empire
+
+- **EPIC 4 — Militaire, combats tactiques & commandement**
+  - Couvre la diversité d’unités selon les époques
+  - Couvre l’influence du terrain, de la météo et des formations sur les combats
+  - Couvre le système de généraux (compétences + traits psychologiques)
+
+- **EPIC 5 — Diplomatie, négociation & relations internationales**
+  - Couvre alliances, traités de paix, pactes de non-agression
+  - Couvre échanges commerciaux et négociations complexes
+  - Couvre contreparties économiques et territoriales
+
+- **EPIC 6 — Identité civilisationnelle (religion, culture, lois)**
+  - Couvre le panthéon et les divinités tutélaires
+  - Couvre les traditions culturelles
+  - Couvre les lois impériales et les orientations de civilisation (militariste, marchande, théocratique)
+
+- **EPIC 7 — Artefacts culturels & puissance symbolique**
+  - Couvre la découverte/obtention d’artefacts (exploration, commerce, pillage)
+  - Couvre les bonus uniques/persistants liés aux artefacts
+  - Couvre l’impact culturel et symbolique sur la civilisation
+
+- **EPIC 8 — Modes de jeu, narration & expérience solo**
+  - Couvre les campagnes historiques scénarisées
+  - Couvre les objectifs narratifs
+  - Couvre le mode Sandbox sans contrainte scénaristique
+
+- **EPIC 9 — Multijoueur & menaces systémiques coopératives**
+  - Couvre le multijoueur compétitif
+  - Couvre le multijoueur coopératif
+  - Couvre les menaces systémiques (invasions, catastrophes, crises)
+
+- **EPIC 10 — Interface, pilotage stratégique & persistance**
+  - Couvre la lisibilité de l’interface (carte, tableaux, suivi démographique)
+  - Couvre les outils de planification militaire/diplomatique
+  - Couvre les mécaniques persistantes (merveilles, héritage inter-parties)
 
 ### 2.2 Association fonctionnalités ↔ EPICS
 - _À compléter dans l'issue #5_

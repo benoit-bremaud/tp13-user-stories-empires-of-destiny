@@ -396,7 +396,7 @@ Format :
    - Afin d’améliorer l’efficacité de mes armées
 14.
    - En tant que joueur
-   - Je peux former des alliances et signer des traités
+   - Je peux négocier un accord diplomatique (alliance, paix ou non-agression)
    - Afin d’éviter des guerres coûteuses
 15.
    - En tant que joueur
@@ -404,7 +404,7 @@ Format :
    - Afin de renforcer mon économie
 16.
    - En tant que joueur
-   - Je peux choisir mon panthéon, mes traditions et mes lois
+   - Je peux configurer les piliers culturels de ma civilisation (panthéon, traditions, lois)
    - Afin de façonner l’identité de ma civilisation
 17.
    - En tant que joueur
@@ -420,11 +420,39 @@ Format :
    - Afin de construire mon empire sans contrainte scénaristique
 20.
    - En tant que joueur
-   - Je peux jouer en multijoueur compétitif ou coopératif
+   - Je peux rejoindre une partie multijoueur compétitive ou coopérative
    - Afin d’affronter ou d’aider d’autres joueurs
 
 ### 3.2 Revue qualité des US (compréhensible, testable, centrée utilisateur)
-- _À compléter dans l'issue #7_
+- **Vérification de conformité globale : OK**
+
+#### A. Centrées utilisateur
+- Les 20 US commencent par un rôle explicite : *« En tant que joueur »*.
+- Les bénéfices sont formulés du point de vue joueur (stratégie, progression, défense, narration, coopération).
+
+#### B. Compréhensibles
+- Vocabulaire homogène avec le reste du livrable (ères, ressources, diplomatie, artefacts, multijoueur).
+- Une action principale claire par US (ou action composite explicitement nommée).
+- Reformulations effectuées pour lever les ambiguïtés sur des US trop larges (cf. section D).
+
+#### C. Testables
+- Chaque US contient une action observable (*lancer*, *collecter*, *construire*, *recruter*, *négocier*, *rejoindre*).
+- Chaque bénéfice est vérifiable via un résultat attendu en jeu (déblocage, amélioration, optimisation, accès à un mode).
+- Les US sont prêtes à être détaillées en critères Given/When/Then dans l’issue #8.
+
+#### D. Reformulations réalisées dans cette revue
+- **US 14** reformulée pour clarifier l’action diplomatique :
+  - de *« former des alliances et signer des traités »*
+  - à *« négocier un accord diplomatique (alliance, paix ou non-agression) »*
+- **US 16** reformulée pour expliciter le périmètre culturel :
+  - de *« choisir mon panthéon, mes traditions et mes lois »*
+  - à *« configurer les piliers culturels de ma civilisation (panthéon, traditions, lois) »*
+- **US 20** reformulée pour rendre l’action mesurable :
+  - de *« jouer en multijoueur compétitif ou coopératif »*
+  - à *« rejoindre une partie multijoueur compétitive ou coopérative »*
+
+#### Conclusion de revue
+- **20/20 US** jugées conformes au format imposé et exploitables pour la suite (critères d’acceptation, DoD, priorisation et MVP).
 
 ---
 

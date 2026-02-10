@@ -342,26 +342,86 @@ Format :
 - Afin de [bénéfice]
 
 ### 3.1 Liste complète des User Stories
-1. En tant que joueur, je peux lancer une partie à l’âge de pierre afin de démarrer la construction de ma civilisation.
-2. En tant que joueur, je peux collecter du bois, de la pierre, de la nourriture et de l’or afin de développer mon empire.
-3. En tant que joueur, je peux produire de la connaissance afin de débloquer des avancées de civilisation.
-4. En tant que joueur, je peux consulter l’état de mes ressources afin de prendre de meilleures décisions de gestion.
-5. En tant que joueur, je peux construire librement mes bâtiments afin d’organiser ma ville selon ma stratégie.
-6. En tant que joueur, je peux tirer des bonus du terrain lors de la construction afin d’optimiser ma production et ma défense.
-7. En tant que joueur, je peux construire des fermes près des fleuves afin d’augmenter la productivité alimentaire.
-8. En tant que joueur, je peux construire des forteresses en hauteur afin d’améliorer la défense de mon territoire.
-9. En tant que joueur, je peux remplir des prérequis de progression afin d’accéder à l’ère suivante.
-10. En tant que joueur, je peux faire évoluer ma civilisation d’un âge à l’autre afin de débloquer de nouveaux bâtiments et unités.
-11. En tant que joueur, je peux recruter des unités militaires adaptées à mon époque afin de défendre et étendre mon empire.
-12. En tant que joueur, je peux utiliser le terrain, la météo et les formations afin d’influencer l’issue des combats.
-13. En tant que joueur, je peux recruter des généraux afin d’améliorer l’efficacité de mes armées.
-14. En tant que joueur, je peux former des alliances et signer des traités afin d’éviter des guerres coûteuses.
-15. En tant que joueur, je peux négocier des échanges commerciaux afin de renforcer mon économie.
-16. En tant que joueur, je peux choisir mon panthéon, mes traditions et mes lois afin de façonner l’identité de ma civilisation.
-17. En tant que joueur, je peux découvrir et obtenir des artefacts afin de bénéficier de bonus uniques.
-18. En tant que joueur, je peux jouer une campagne historique afin de vivre une expérience narrative guidée.
-19. En tant que joueur, je peux jouer en mode Sandbox afin de construire mon empire sans contrainte scénaristique.
-20. En tant que joueur, je peux jouer en multijoueur compétitif ou coopératif afin d’affronter ou d’aider d’autres joueurs.
+1.
+   - En tant que joueur
+   - Je peux lancer une partie à l’âge de pierre
+   - Afin de démarrer la construction de ma civilisation
+2.
+   - En tant que joueur
+   - Je peux collecter du bois, de la pierre, de la nourriture et de l’or
+   - Afin de développer mon empire
+3.
+   - En tant que joueur
+   - Je peux produire de la connaissance
+   - Afin de débloquer des avancées de civilisation
+4.
+   - En tant que joueur
+   - Je peux consulter l’état de mes ressources
+   - Afin de prendre de meilleures décisions de gestion
+5.
+   - En tant que joueur
+   - Je peux construire librement mes bâtiments
+   - Afin d’organiser ma ville selon ma stratégie
+6.
+   - En tant que joueur
+   - Je peux tirer des bonus du terrain lors de la construction
+   - Afin d’optimiser ma production et ma défense
+7.
+   - En tant que joueur
+   - Je peux construire des fermes près des fleuves
+   - Afin d’augmenter la productivité alimentaire
+8.
+   - En tant que joueur
+   - Je peux construire des forteresses en hauteur
+   - Afin d’améliorer la défense de mon territoire
+9.
+   - En tant que joueur
+   - Je peux remplir des prérequis de progression
+   - Afin d’accéder à l’ère suivante
+10.
+   - En tant que joueur
+   - Je peux faire évoluer ma civilisation d’un âge à l’autre
+   - Afin de débloquer de nouveaux bâtiments et unités
+11.
+   - En tant que joueur
+   - Je peux recruter des unités militaires adaptées à mon époque
+   - Afin de défendre et étendre mon empire
+12.
+   - En tant que joueur
+   - Je peux utiliser le terrain, la météo et les formations
+   - Afin d’influencer l’issue des combats
+13.
+   - En tant que joueur
+   - Je peux recruter des généraux
+   - Afin d’améliorer l’efficacité de mes armées
+14.
+   - En tant que joueur
+   - Je peux former des alliances et signer des traités
+   - Afin d’éviter des guerres coûteuses
+15.
+   - En tant que joueur
+   - Je peux négocier des échanges commerciaux
+   - Afin de renforcer mon économie
+16.
+   - En tant que joueur
+   - Je peux choisir mon panthéon, mes traditions et mes lois
+   - Afin de façonner l’identité de ma civilisation
+17.
+   - En tant que joueur
+   - Je peux découvrir et obtenir des artefacts
+   - Afin de bénéficier de bonus uniques
+18.
+   - En tant que joueur
+   - Je peux jouer une campagne historique
+   - Afin de vivre une expérience narrative guidée
+19.
+   - En tant que joueur
+   - Je peux jouer en mode Sandbox
+   - Afin de construire mon empire sans contrainte scénaristique
+20.
+   - En tant que joueur
+   - Je peux jouer en multijoueur compétitif ou coopératif
+   - Afin d’affronter ou d’aider d’autres joueurs
 
 ### 3.2 Revue qualité des US (compréhensible, testable, centrée utilisateur)
 - _À compléter dans l'issue #7_

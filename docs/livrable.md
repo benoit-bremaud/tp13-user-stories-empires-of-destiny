@@ -228,7 +228,108 @@
   - Couvre les mécaniques persistantes (merveilles, héritage inter-parties)
 
 ### 2.2 Association fonctionnalités ↔ EPICS
-- _À compléter dans l'issue #5_
+#### EPIC 1 — Progression civilisationnelle & âges historiques
+- Évolution d’une civilisation sur 4 grandes ères jouables au lancement
+- Démarrage à l’âge de pierre avec moyens rudimentaires
+- Transition vers l’âge du bronze (métallurgie, premières armées structurées)
+- Transition vers l’âge du fer (sociétés organisées, défenses avancées, armements améliorés)
+- Transition vers l’ère médiévale (chevalerie, fortifications massives, diplomatie complexe, religion institutionnalisée)
+- Passage d’ère non instantané (pas de bouton direct)
+- Déblocage des ères via conditions à satisfaire
+- Accumulation de richesse multidimensionnelle pour progresser
+- Prérequis structurels pour certaines progressions d’ère
+- Prérequis de bâtiments spécifiques pour progression
+- Prérequis de recherches technologiques pour progression
+- Prérequis d’accumulation de savoirs pour progression
+
+#### EPIC 2 — Économie, ressources & connaissances
+- Système de ressources matérielles : bois
+- Système de ressources matérielles : pierre
+- Système de ressources matérielles : nourriture
+- Système de ressources matérielles : or
+- Système de ressource abstraite : connaissance
+
+#### EPIC 3 — Construction, urbanisme & environnement
+- Système de construction libre (placement libre des bâtiments)
+- Impact de l’environnement sur rendement des bâtiments
+- Ferme proche d’un fleuve : bonus de productivité
+- Forteresse en hauteur : bonus défensif
+- Carrière proche d’une falaise : meilleure rentabilité
+- Dimension urbanistique stratégique de l’empire
+
+#### EPIC 4 — Militaire, combats tactiques & commandement
+- Diversité d’unités militaires selon les époques
+- Unités primitives (milices)
+- Unités de type lanciers
+- Unités de type archers
+- Unités de cavalerie
+- Unités médiévales (chevaliers lourdement armurés)
+- Résolution des combats influencée par le terrain
+- Résolution des combats influencée par la météo
+- Résolution des combats influencée par les formations
+- Recrutement de généraux
+- Généraux avec compétences propres
+- Généraux avec traits psychologiques impactant les armées
+
+#### EPIC 5 — Diplomatie, négociation & relations internationales
+- Diplomatie structurante (alternative à la guerre)
+- Alliances militaires
+- Traités de paix
+- Échanges commerciaux négociés
+- Pactes de non-agression
+- Négociations longues et complexes
+- Négociations avec contreparties économiques
+- Négociations avec contreparties territoriales
+
+#### EPIC 6 — Identité civilisationnelle (religion, culture, lois)
+- Personnalisation religieuse de la civilisation (panthéon)
+- Choix de divinités tutélaires
+- Définition de traditions culturelles
+- Promulgation de lois impériales
+- Choix de civilisation impactant profondément le gameplay
+- Orientation militariste possible
+- Orientation marchande possible
+- Orientation théocratique possible
+
+#### EPIC 7 — Artefacts culturels & puissance symbolique
+- Introduction d’artefacts culturels
+- Typologies d’artefacts : reliques, manuscrits, objets sacrés, œuvres anciennes
+- Obtention d’artefacts via exploration
+- Obtention d’artefacts via commerce
+- Obtention d’artefacts via pillage en conflit
+- Artefacts conférant des bonus uniques
+- Bonus d’artefacts potentiellement permanents
+- Bonus influençant culture civilisationnelle
+- Bonus influençant puissance symbolique
+
+#### EPIC 8 — Modes de jeu, narration & expérience solo
+- Campagnes historiques scénarisées
+- Objectifs narratifs spécifiques en campagne
+- Mode Sandbox (liberté sans contrainte narrative)
+- Génération d’histoires émergentes selon choix du joueur
+
+#### EPIC 9 — Multijoueur & menaces systémiques coopératives
+- Multijoueur compétitif
+- Multijoueur coopératif
+- Coopération contre menaces systémiques
+- Menaces systémiques : invasions barbares
+- Menaces systémiques : catastrophes naturelles
+- Menaces systémiques : crises économiques
+
+#### EPIC 10 — Interface, pilotage stratégique & persistance
+- Interface riche mais lisible
+- Carte stratégique détaillée
+- Tableaux de gestion des ressources
+- Suivi démographique
+- Outils de planification militaire
+- Outils de planification diplomatique
+- Pilotage global de l’empire avec faible friction UX
+- Constructions exceptionnelles (merveilles du monde)
+- Effets durables des merveilles
+- Persistance inter-parties de certaines décisions
+- Héritage civilisationnel entre parties
+
+> Vérification de couverture : chaque fonctionnalité listée en section 1.1 est rattachée à un EPIC unique, sans élément orphelin.
 
 ---
 

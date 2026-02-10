@@ -236,7 +236,6 @@
 - Transition vers l’ère médiévale (chevalerie, fortifications massives, diplomatie complexe, religion institutionnalisée)
 - Passage d’ère non instantané (pas de bouton direct)
 - Déblocage des ères via conditions à satisfaire
-- Accumulation de richesse multidimensionnelle pour progresser
 - Prérequis structurels pour certaines progressions d’ère
 - Prérequis de bâtiments spécifiques pour progression
 - Prérequis de recherches technologiques pour progression
@@ -248,6 +247,7 @@
 - Système de ressources matérielles : nourriture
 - Système de ressources matérielles : or
 - Système de ressource abstraite : connaissance
+- Accumulation de richesse multidimensionnelle pour progresser
 
 #### EPIC 3 — Construction, urbanisme & environnement
 - Système de construction libre (placement libre des bâtiments)

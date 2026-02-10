@@ -460,7 +460,55 @@ Format :
 > Minimum 5 User Stories sélectionnées.
 
 ### 4.1 Critères d’acceptation (Given / When / Then)
-- _À compléter dans l'issue #8_
+#### US 1 — Lancer une partie à l’âge de pierre
+1. **Initialisation d’une nouvelle partie**
+   - **Given** le joueur est sur l’écran principal
+   - **When** il lance une nouvelle partie
+   - **Then** une partie démarre à l’âge de pierre avec l’état initial attendu (ressources de départ, unités de base, interface active)
+2. **Contrôle de l’ère de départ**
+   - **Given** la partie vient d’être créée
+   - **When** le joueur ouvre l’écran d’informations de civilisation
+   - **Then** l’ère affichée est bien « âge de pierre »
+
+#### US 2 — Collecter du bois, de la pierre, de la nourriture et de l’or
+1. **Collecte de ressource matérielle**
+   - **Given** le joueur dispose d’un moyen valide de collecte
+   - **When** il ordonne la collecte d’une ressource (bois, pierre, nourriture ou or)
+   - **Then** la quantité de la ressource ciblée augmente dans les tableaux de gestion
+2. **Mise à jour de l’interface de ressources**
+   - **Given** une collecte est en cours
+   - **When** un palier de production est atteint
+   - **Then** l’interface affiche la nouvelle valeur sans incohérence
+
+#### US 5 — Construire librement mes bâtiments
+1. **Placement valide d’un bâtiment**
+   - **Given** le joueur a sélectionné un bâtiment constructible et possède les ressources requises
+   - **When** il place le bâtiment sur une zone autorisée de la carte
+   - **Then** la construction est acceptée et le bâtiment apparaît à l’emplacement choisi
+2. **Refus de placement invalide**
+   - **Given** le joueur tente de placer un bâtiment sur une zone non autorisée
+   - **When** il confirme la construction
+   - **Then** la construction est refusée avec un retour visuel explicite
+
+#### US 10 — Faire évoluer ma civilisation d’un âge à l’autre
+1. **Passage d’ère avec prérequis satisfaits**
+   - **Given** tous les prérequis de progression (ressources, savoir, bâtiments, recherches) sont remplis
+   - **When** le joueur déclenche le passage à l’ère suivante
+   - **Then** la civilisation évolue vers l’ère suivante et les nouveaux contenus sont déverrouillés
+2. **Blocage du passage d’ère sans prérequis**
+   - **Given** au moins un prérequis est manquant
+   - **When** le joueur tente de passer à l’ère suivante
+   - **Then** le passage est refusé avec indication des conditions non remplies
+
+#### US 14 — Négocier un accord diplomatique (alliance, paix ou non-agression)
+1. **Validation d’un accord diplomatique**
+   - **Given** deux civilisations sont en relation diplomatique active
+   - **When** le joueur propose un accord recevable (alliance, paix ou non-agression) accepté par l’autre partie
+   - **Then** l’accord est enregistré et ses effets sont appliqués en jeu
+2. **Refus d’un accord diplomatique**
+   - **Given** le joueur propose un accord jugé inacceptable par l’autre partie
+   - **When** la négociation est évaluée
+   - **Then** l’accord est refusé et aucun effet diplomatique n’est appliqué
 
 ### 4.2 Definition of Done (DoD)
 - _À compléter dans l'issue #9_

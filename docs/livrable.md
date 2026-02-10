@@ -96,7 +96,80 @@
 - Génération d’histoires émergentes selon choix du joueur
 
 ### 1.2 Actions joueur / mécaniques / interactions
-- _À compléter dans l'issue #3_
+#### Actions possibles pour le joueur
+- Lancer une partie depuis l’âge de pierre
+- Faire évoluer sa civilisation d’une ère à l’autre
+- Accumuler les ressources (bois, pierre, nourriture, or)
+- Produire et accumuler de la connaissance
+- Construire des bâtiments selon une logique de placement libre
+- Positionner les bâtiments selon le relief et les éléments naturels
+- Construire des fermes proches des fleuves
+- Construire des forteresses en hauteur
+- Construire des carrières proches de falaises
+- Développer son économie et son urbanisme
+- Débloquer des recherches technologiques
+- Remplir des prérequis structurels pour progression
+- Explorer la carte
+- Découvrir des artefacts culturels
+- Obtenir des artefacts via commerce
+- Piller des artefacts lors de conflits
+- Recruter des unités militaires
+- Composer des armées variées selon l’époque
+- Recruter des généraux
+- Exploiter les compétences des généraux
+- Adapter ses formations militaires
+- Lancer des offensives militaires
+- Défendre son territoire avec fortifications
+- Négocier avec d’autres civilisations
+- Conclure des alliances militaires
+- Signer des traités de paix
+- Mettre en place des pactes de non-agression
+- Organiser des échanges commerciaux
+- Négocier des contreparties économiques/territoriales
+- Définir le panthéon religieux
+- Choisir des divinités tutélaires
+- Instaurer des traditions culturelles
+- Promulguer des lois impériales
+- Choisir une orientation de civilisation (militariste, marchande, théocratique)
+- Jouer des campagnes historiques scénarisées
+- Atteindre des objectifs narratifs
+- Jouer en mode Sandbox
+- Participer à des parties multijoueur compétitives
+- Participer à des parties multijoueur coopératives
+- Coopérer contre des menaces systémiques
+- Piloter l’empire via les outils d’interface (carte, tableaux, planification)
+
+#### Mécaniques et systèmes de jeu
+- Progression civilisationnelle en 4 ères
+- Gating de progression par conditions (ressources, savoir, bâtiments, recherches)
+- Économie multi-ressources (matérielles + connaissance)
+- Système d’artefacts à bonus uniques/potentiellement permanents
+- Construction libre à contraintes/opportunités environnementales
+- Gameplay orienté optimisation urbanistique
+- Système militaire à diversité d’unités par époque
+- Résolution tactique des combats influencée par terrain, météo et formations
+- Système de commandement avec généraux et traits psychologiques
+- Diplomatie comme voie stratégique équivalente à la guerre
+- Système de personnalisation civilisationnelle (religion, culture, lois)
+- Différenciation forte des styles de jeu selon orientation choisie
+- Double mode de jeu : campagne narrative + sandbox
+- Multijoueur en modes compétitif et coopératif
+- Gestion de menaces systémiques en coop
+- Interface de pilotage riche orientée prise de décision
+- Mécaniques de persistance inter-parties (héritage civilisationnel)
+- Effets persistants liés aux constructions exceptionnelles (merveilles)
+
+#### Interactions clés entre mécaniques
+- Ressources + connaissance + prérequis structurels ⇒ déblocage des ères
+- Placement des bâtiments + environnement ⇒ performance économique/défensive
+- Artefacts + orientation culturelle/religieuse ⇒ bonus stratégiques de civilisation
+- Composition d’armée + terrain + météo + formations + généraux ⇒ issue des combats
+- Diplomatie + commerce + pactes ⇒ alternatives à l’escalade militaire
+- Lois/traditions/religion ⇒ modificateurs globaux du gameplay
+- Campagnes narratives ⇒ objectifs imposés qui orientent les choix de gestion/guerre
+- Sandbox ⇒ expérimentation libre des systèmes sans contraintes narratives
+- Coop multijoueur + menaces systémiques ⇒ coordination entre joueurs
+- Décisions d’une partie + persistance/héritage ⇒ impact sur les parties suivantes
 
 ---
 

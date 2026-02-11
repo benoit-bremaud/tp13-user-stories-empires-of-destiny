@@ -609,11 +609,12 @@ Objectif : une **V1 jouable** centrée sur la boucle STR de base (démarrage →
 US retenues (6 à 8 maximum) :
 1. **US 1** — Lancer une partie à l’âge de pierre
 2. **US 2** — Collecter du bois, de la pierre, de la nourriture et de l’or
-3. **US 4** — Consulter l’état de mes ressources
-4. **US 5** — Construire librement mes bâtiments
-5. **US 9** — Remplir des prérequis de progression
-6. **US 10** — Faire évoluer ma civilisation d’un âge à l’autre
-7. **US 11** — Recruter des unités militaires adaptées à mon époque
+3. **US 3** — Produire de la connaissance
+4. **US 4** — Consulter l’état de mes ressources
+5. **US 5** — Construire librement mes bâtiments
+6. **US 9** — Remplir des prérequis de progression
+7. **US 10** — Faire évoluer ma civilisation d’un âge à l’autre
+8. **US 11** — Recruter des unités militaires adaptées à mon époque
 
 Justification MVP (synthèse) :
 - Ces US constituent le **socle du gameplay STR** : démarrer, produire/consommer des ressources, construire, progresser, recruter.

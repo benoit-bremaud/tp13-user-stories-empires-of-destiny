@@ -573,28 +573,85 @@ Format :
 Format conseillé : **Priorité - User Story - Dépend de - Justification**
 
 ### 5.1 Backlog complet priorisé
-| Priorité | User Story | Dépend de | Justification (valeur / gameplay / dépendances) |
-|---:|---|---|---|
-| 1 | **US 1** — Lancer une partie à l’âge de pierre | — | Point d’entrée indispensable : sans création de partie, aucun autre système n’est accessible. |
-| 2 | **US 2** — Collecter du bois, de la pierre, de la nourriture et de l’or | US 1 | Cœur de la boucle RTS : l’économie alimente la construction, le recrutement, la progression. |
-| 3 | **US 5** — Construire librement mes bâtiments | US 1, US 2 | Construction = second pilier de la boucle (économie → développement). Conditionne ensuite urbanisme, défense, production. |
-| 4 | **US 4** — Consulter l’état de mes ressources | US 2 | Améliore la prise de décision et réduit la friction UX : le joueur doit pouvoir piloter l’économie. |
-| 5 | **US 3** — Produire de la connaissance | US 1 | La connaissance est explicitement une ressource clé (PO). Prépare la progression (ères/recherches). |
-| 6 | **US 9** — Remplir des prérequis de progression | US 2, US 3, US 5 | Formalise les “gates” (ressources/savoir/bâtiments) et rend la progression compréhensible et planifiable. |
-| 7 | **US 10** — Faire évoluer ma civilisation d’un âge à l’autre | US 9 | La progression d’ère débloque le contenu (bâtiments/unités) : moteur de motivation et de variété. |
-| 8 | **US 6** — Tirer des bonus du terrain lors de la construction | US 5 | Ajoute de la profondeur stratégique à la construction (différenciation des choix de placement). |
-| 9 | **US 7** — Construire des fermes près des fleuves | US 5, US 6 | Cas d’usage concret du système environnemental ; valeur immédiate (boucle nourriture). |
-| 10 | **US 8** — Construire des forteresses en hauteur | US 5, US 6 | Autre cas d’usage environnemental ; introduit la logique défensive et prépare le militaire. |
-| 11 | **US 11** — Recruter des unités militaires adaptées à mon époque | US 2, US 5 | Permet conflit/défense/expansion : essentiel au genre STR et à l’équilibre avec économie. |
-| 12 | **US 13** — Recruter des généraux | US 11 | Système de commandement : augmente la profondeur du militaire, mais reste secondaire à “avoir une armée”. |
-| 13 | **US 12** — Utiliser le terrain, la météo et les formations | US 11 | Approfondissement tactique : nécessite déjà des unités ; apporte de la maîtrise et des choix de combat. |
-| 14 | **US 14** — Négocier un accord diplomatique (alliance, paix ou non-agression) | US 1 | Voie alternative à la guerre, explicitement centrale dans la vision PO ; arrive après la boucle de base. |
-| 15 | **US 15** — Négocier des échanges commerciaux | US 14, US 2 | Le commerce est une extension de la diplomatie et de l’économie ; dépend des relations et de ressources. |
-| 16 | **US 16** — Configurer les piliers culturels (panthéon, traditions, lois) | US 1 | Personnalisation de civilisation (style de jeu). Forte valeur, mais moins bloquante que la boucle RTS principale. |
-| 17 | **US 17** — Découvrir et obtenir des artefacts | US 1 | Contenu de progression/bonus “mid-game” : enrichit la stratégie (bonus uniques/persistants). |
-| 18 | **US 19** — Jouer en mode Sandbox | US 1 | Mode alternatif : valeur importante, mais il repose sur la stabilité des systèmes de base. |
-| 19 | **US 18** — Jouer une campagne historique | US 1 | Mode scénarisé : production coûteuse et dépend d’une base gameplay solide ; priorisé après sandbox. |
-| 20 | **US 20** — Rejoindre une partie multijoueur compétitive ou coopérative | US 1 | Forte valeur, mais complexité/risque élevés (réseau, équilibrage). Logiquement après stabilisation du cœur de jeu. |
+1. **Priorité 1 — US 1 : Lancer une partie à l’âge de pierre**  
+   **Dépend de :** —  
+   **Justification :** point d’entrée indispensable ; sans création de partie, aucun autre système n’est accessible.
+
+2. **Priorité 2 — US 2 : Collecter du bois, de la pierre, de la nourriture et de l’or**  
+   **Dépend de :** US 1  
+   **Justification :** cœur de la boucle STR ; l’économie alimente construction, recrutement et progression.
+
+3. **Priorité 3 — US 5 : Construire librement mes bâtiments**  
+   **Dépend de :** US 1, US 2  
+   **Justification :** second pilier de la boucle ; conditionne urbanisme, défense et production.
+
+4. **Priorité 4 — US 4 : Consulter l’état de mes ressources**  
+   **Dépend de :** US 2  
+   **Justification :** améliore la prise de décision et réduit la friction UX.
+
+5. **Priorité 5 — US 3 : Produire de la connaissance**  
+   **Dépend de :** US 1  
+   **Justification :** ressource clé de progression vers les ères et recherches.
+
+6. **Priorité 6 — US 9 : Remplir des prérequis de progression**  
+   **Dépend de :** US 2, US 3, US 5  
+   **Justification :** formalise les conditions de progression et rend le système lisible.
+
+7. **Priorité 7 — US 10 : Faire évoluer ma civilisation d’un âge à l’autre**  
+   **Dépend de :** US 9  
+   **Justification :** débloque de nouveaux contenus et soutient la motivation joueur.
+
+8. **Priorité 8 — US 6 : Tirer des bonus du terrain lors de la construction**  
+   **Dépend de :** US 5  
+   **Justification :** ajoute de la profondeur stratégique sur le placement.
+
+9. **Priorité 9 — US 7 : Construire des fermes près des fleuves**  
+   **Dépend de :** US 5, US 6  
+   **Justification :** cas concret du système environnemental avec valeur immédiate.
+
+10. **Priorité 10 — US 8 : Construire des forteresses en hauteur**  
+    **Dépend de :** US 5, US 6  
+    **Justification :** introduit la logique défensive liée au terrain.
+
+11. **Priorité 11 — US 11 : Recruter des unités militaires adaptées à mon époque**  
+    **Dépend de :** US 2, US 5  
+    **Justification :** indispensable au genre STR pour la défense et l’expansion.
+
+12. **Priorité 12 — US 13 : Recruter des généraux**  
+    **Dépend de :** US 11  
+    **Justification :** ajoute une couche de commandement, secondaire au recrutement d’unités.
+
+13. **Priorité 13 — US 12 : Utiliser le terrain, la météo et les formations**  
+    **Dépend de :** US 11  
+    **Justification :** approfondit les combats une fois la base militaire en place.
+
+14. **Priorité 14 — US 14 : Négocier un accord diplomatique**  
+    **Dépend de :** US 1  
+    **Justification :** voie alternative à la guerre, à introduire après la boucle de base.
+
+15. **Priorité 15 — US 15 : Négocier des échanges commerciaux**  
+    **Dépend de :** US 14, US 2  
+    **Justification :** extension de la diplomatie appuyée sur l’économie.
+
+16. **Priorité 16 — US 16 : Configurer les piliers culturels (panthéon, traditions, lois)**  
+    **Dépend de :** US 1  
+    **Justification :** forte valeur de personnalisation, mais non bloquante au démarrage.
+
+17. **Priorité 17 — US 17 : Découvrir et obtenir des artefacts**  
+    **Dépend de :** US 1  
+    **Justification :** enrichit la profondeur stratégique en milieu de partie.
+
+18. **Priorité 18 — US 19 : Jouer en mode Sandbox**  
+    **Dépend de :** US 1  
+    **Justification :** mode alternatif dépendant de la robustesse des systèmes cœur.
+
+19. **Priorité 19 — US 18 : Jouer une campagne historique**  
+    **Dépend de :** US 1  
+    **Justification :** coûteuse en contenu narratif, à livrer après stabilisation gameplay.
+
+20. **Priorité 20 — US 20 : Rejoindre une partie multijoueur compétitive ou coopérative**  
+    **Dépend de :** US 1  
+    **Justification :** très forte complexité technique (réseau/équilibrage), à traiter en dernier.
 
 > Note : cette priorisation est raisonnée “Product Owner” (valeur + dépendances). Le **MVP** sera dérivé de cette liste dans les issues #11/#12.
 
@@ -604,17 +661,28 @@ Format conseillé : **Priorité - User Story - Dépend de - Justification**
 > Sélectionner 6 à 8 US maximum pour une V1 jouable.
 
 ### 6.1 US retenues pour le MVP
-Objectif : une **V1 jouable** centrée sur la boucle STR de base (démarrage → économie → construction → progression → première capacité militaire).
+Objectif : une **V1 jouable** centrée sur la boucle STR de base :
+**démarrage → économie → construction → progression → première capacité militaire**.
 
-US retenues (6 à 8 maximum) :
-1. **US 1** — Lancer une partie à l’âge de pierre
-2. **US 2** — Collecter du bois, de la pierre, de la nourriture et de l’or
-3. **US 3** — Produire de la connaissance
-4. **US 4** — Consulter l’état de mes ressources
-5. **US 5** — Construire librement mes bâtiments
-6. **US 9** — Remplir des prérequis de progression
-7. **US 10** — Faire évoluer ma civilisation d’un âge à l’autre
-8. **US 11** — Recruter des unités militaires adaptées à mon époque
+US retenues (8/8 maximum) :
+- **US 1** — Lancer une partie à l’âge de pierre
+- **US 2** — Collecter du bois, de la pierre, de la nourriture et de l’or
+- **US 3** — Produire de la connaissance
+- **US 4** — Consulter l’état de mes ressources
+- **US 5** — Construire librement mes bâtiments
+- **US 9** — Remplir des prérequis de progression
+- **US 10** — Faire évoluer ma civilisation d’un âge à l’autre
+- **US 11** — Recruter des unités militaires adaptées à mon époque
+
+Fonctionnalités retenues pour le MVP (présentation fonctionnelle) :
+- Démarrage d’une partie à l’âge de pierre
+- Collecte et gestion des ressources de base (bois, pierre, nourriture, or)
+- Production de la connaissance
+- Suivi lisible de l’état des ressources
+- Construction libre des bâtiments
+- Gestion des prérequis de progression
+- Passage à l’ère suivante
+- Recrutement des premières unités militaires
 
 Justification MVP (synthèse) :
 - Ces US constituent le **socle du gameplay STR** : démarrer, produire/consommer des ressources, construire, progresser, recruter.
@@ -622,10 +690,39 @@ Justification MVP (synthèse) :
 - Les mécaniques plus complexes (tactique avancée, diplomatie, artefacts, multijoueur, campagne, identité civilisationnelle) seront traitées après stabilisation du cœur de boucle.
 
 ### 6.2 Description de la V1 jouable
-- _À compléter dans l'issue #12_
+La V1 jouable d’**Empires of Destiny** propose une boucle STR complète et cohérente, centrée sur la progression d’une civilisation depuis l’âge de pierre.
+
+Le joueur peut :
+- démarrer une partie,
+- collecter et suivre ses ressources,
+- construire ses premiers bâtiments,
+- produire de la connaissance,
+- remplir des prérequis de progression,
+- passer à l’ère suivante,
+- recruter ses premières unités militaires.
+
+Cette version permet un enchaînement **de bout en bout** :
+**démarrer → produire → construire → progresser → recruter**.
+
+La V1 est considérée jouable car elle fournit :
+- un objectif court/moyen terme clair (accéder à une nouvelle ère),
+- des décisions de gestion observables (allocation ressources / construction),
+- une première capacité de défense/expansion (recrutement militaire),
+- une lisibilité minimale de l’état de jeu (consultation des ressources).
 
 ### 6.3 Fonctionnalités volontairement exclues du MVP
-- _À compléter dans l'issue #12_
+Les fonctionnalités suivantes sont exclues de la V1 pour limiter le risque et stabiliser le cœur de gameplay :
+
+- **Diplomatie avancée** : alliances, traités complexes, pactes de non-agression détaillés (US 14, US 15)
+- **Tactique avancée** : météo, formations poussées, couche tactique complète (US 12)
+- **Commandement avancé** : généraux et traits psychologiques (US 13)
+- **Identité civilisationnelle approfondie** : panthéon, traditions, lois (US 16)
+- **Système d’artefacts** : découverte, acquisition, effets persistants (US 17)
+- **Modes de jeu additionnels** : campagne scénarisée et sandbox complet (US 18, US 19)
+- **Multijoueur** : compétitif et coopératif (US 20)
+- **Persistance long terme enrichie** : merveilles et héritage inter-parties avancé
+
+Raison d’exclusion : ces éléments apportent une forte valeur, mais augmentent la complexité de conception, d’équilibrage et de validation. Ils seront traités en itérations post-MVP.
 
 ---
 
@@ -634,4 +731,26 @@ Justification MVP (synthèse) :
 - Mise en forme finale
 - Export PDF
 
-> _À compléter dans l'issue #13_
+### 7.1 Contrôle de conformité
+- Les sections obligatoires du rendu sont présentes dans ce document :
+  - Fonctionnalités
+  - EPICS
+  - User Stories
+  - Critères d’acceptation + DoD
+  - Backlog priorisé
+  - MVP
+- Les volumes attendus sont respectés :
+  - 10 EPICS
+  - 20 User Stories
+  - 5 US détaillées avec critères + DoD
+  - MVP limité à 8 US
+
+### 7.2 Relecture et homogénéisation
+- Relecture orthographique et grammaticale effectuée.
+- Terminologie harmonisée sur l’ensemble du livrable (ère, ressource, prérequis, MVP, DoD).
+- Uniformisation de la structure des sections et des listes.
+
+### 7.3 Export PDF
+- Source d’export : `docs/livrable.md`
+- Nom recommandé du fichier : `livrable-empires-of-destiny.pdf`
+- Le PDF final doit être généré à partir de cette version consolidée.
